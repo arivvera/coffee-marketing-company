@@ -1,7 +1,7 @@
-export default function Home() {
+export default function Cohiba() {
   return (
     <div className="p-2">
-      Home
+      Cohiba
     </div>
   );
 }

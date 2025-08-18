@@ -1,7 +1,7 @@
-export default function Home() {
+export default function Serrano() {
   return (
     <div className="p-2">
-      Home
+      Serrano
     </div>
   );
 }

@@ -8,7 +8,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {children}
+        {/* Navbar */}
+        <main>
+          {children}
+        </main>
+        {/* Footer */}
       </body>
     </html>
   );

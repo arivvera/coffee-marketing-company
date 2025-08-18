@@ -1,7 +1,7 @@
-export default function Home() {
+export default function Arriero() {
   return (
     <div className="p-2">
-      Home
+      Arriero
     </div>
   );
 }
