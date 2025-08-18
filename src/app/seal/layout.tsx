@@ -1,3 +1,5 @@
+import { ViewMore } from "@/components/ViewMore";
+
 export default function Seal({
   children
 }: {
@@ -7,7 +9,7 @@ export default function Seal({
     <div>
       {children}
       <section>
-        {/* View More component */}
+        <ViewMore />
       </section>
     </div>
   );

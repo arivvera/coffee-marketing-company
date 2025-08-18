@@ -1,3 +1,5 @@
+import { ViewMore } from "@/components/ViewMore";
+
 export default function Brand({
   children
 }: {
@@ -5,9 +7,9 @@ export default function Brand({
 }) {
   return (
     <div>
+      {children}
       <section>
-        {children}
-        {/* View More component */}
+        <ViewMore />
       </section>
     </div>
   );
