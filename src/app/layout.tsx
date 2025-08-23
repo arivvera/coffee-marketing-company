@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import localFont from "next/font/local";
+import { Metadata } from "next";
 
 export const cervoNeueFont = localFont({
   src: [
@@ -28,6 +29,11 @@ export const cervoNeueFont = localFont({
   ],
   display: "swap",
 });
+
+export const metadata: Metadata = {
+  title: "Cubacafé | Empresa de Torrefacción y Comercialización de Café",
+  description: "La Empresa de Torrefacción y Comercialización de Café, Cubacafé, es una entidad de capital 100% estatal, perteneciente al Ministerio de la Industria Alimentaría (MINAL), con 14 torrefactoras a lo largo de todo el país que producen para el mercado interno y la exportación, lo que nos convierte en líder de producción y comercialización de café tostado en grano y molido en Cuba.",
+}
 
 export default function RootLayout({
   children,
