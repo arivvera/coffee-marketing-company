@@ -5,6 +5,7 @@ import localFont from "next/font/local";
 import { Metadata } from "next";
 
 export const cervoNeueFont = localFont({
+
   src: [
     {
       path: "./CervoNeue-Thin.woff2",
