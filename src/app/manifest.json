@@ -1,0 +1,6 @@
+{
+  "name": "Cubacafé Official Website",
+  "short_name": "Cubacafé",
+  "start_url": "/",
+  "display": "standalone"
+}
