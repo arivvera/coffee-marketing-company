@@ -8,22 +8,22 @@ export const cervoNeueFont = localFont({
 
   src: [
     {
-      path: "./CervoNeue-Thin.woff2",
+      path: "./fonts/CervoNeue-Thin.woff2",
       weight: "100",
       style: "normal",
     },
     {
-      path: "./CervoNeue-Light.woff2",
+      path: "./fonts/CervoNeue-Light.woff2",
       weight: "300",
       style: "normal",
     },
     {
-      path: "./CervoNeue-Regular.woff2",
+      path: "./fonts/CervoNeue-Regular.woff2",
       weight: "400",
       style: "normal",
     },
     {
-      path: "./CervoNeue-Medium.woff2",
+      path: "./fonts/CervoNeue-Medium.woff2",
       weight: "500",
       style: "normal",
     },
